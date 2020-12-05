@@ -1,0 +1,7 @@
+<!ELEMENT tasks (task)*>
+<!ELEMENT task (author,text,list)>
+<!ATTLIST task fav CDATA #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT list (#PCDATA)>
+

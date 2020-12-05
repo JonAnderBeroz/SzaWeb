@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/* line 3, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+html {
+  font-family: Arial;
+  font-size: 16px;
+  background: #5e42a6;
+}
+
+/* line 9, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background: #312450;
+  font-size: 0.65em;
+}
+
+/* line 17, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+/* line 26, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav ul {
+  list-style: none;
+}
+
+/* line 29, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav ul li {
+  position: relative;
+  margin: 3.2em 0;
+}
+
+/* line 33, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav ul li a {
+  line-height: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: rgba(255, 255, 255, 0.35);
+  display: block;
+  transition: all ease-out 300ms;
+}
+
+/* line 43, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav ul li.active a {
+  color: white;
+}
+
+/* line 47, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav ul li:not(.active)::after {
+  opacity: 0.2;
+}
+
+/* line 51, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav ul li:not(.active):hover a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 55, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.nav ul li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+}
+
+/* line 68, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.twitter {
+  position: relative;
+  width: 75%;
+  float: right;
+  height: 100vh;
+}
+
+/* line 74, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.twitter .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* line 82, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.twitter a {
+  position: relative;
+}
+
+/* line 85, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.twitter a img {
+  width: 48px;
+  height: 48px;
+}
+
+/* line 91, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+.twitter p {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=sidebar.css.map */
