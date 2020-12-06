@@ -10,5 +10,9 @@
       </ul>
     </nav>
   </aside>
+  <section class="container">
+    <?php include'../php/printTaskFromXml.php'?>
+  </section>
+  <script src="../js/taskFunctionalities.js"></script>
 </body>
 </html>

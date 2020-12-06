@@ -19,8 +19,8 @@
     </nav>
   </aside>
 
-  <section class="twitter">
-    <div class="container">
+  <section class="container">
+    <div class="twitter">
       <a target="_blank" href="https://twitter.com/ReisnerShawn">
         <img class="social" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png">
       </a>

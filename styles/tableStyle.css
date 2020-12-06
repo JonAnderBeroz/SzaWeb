@@ -1,0 +1,37 @@
+#tasks td {
+    border-bottom: 2px solid #585858;
+     padding: 1rem;
+  }
+  
+   #tasks{
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 5%;
+    text-align: center;
+  }
+  
+  #tasks th{
+    border:2px solid black;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+  }
+  
+  #tasks tbody tr:hover {background-color: #e6e6e6;}
+  
+  #tasks button {
+  
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+  
+  }
+
+  .completed{
+
+    text-decoration: line-through;
+  }

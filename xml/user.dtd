@@ -1,0 +1,6 @@
+<!ELEMENT users (user)*> <!--The file will be composed by a set of users-->
+<!ELEMENT user(email,name,surname,pass)><!-- Each user will have a unique mail, the credentials of the user and the password(which will be hashed to secure a bit the user)-->
+<!ELEMENT email (#PCDATA)><!--The email will be unique and will identify the user-->
+<!ELEMENT name (#PCDATA)> <!--The name will be the first name of the user-->
+<!ELEMENT surname (#PCDATA)><!--The surname will be the first surname of the user-->
+<!ELEMENT pass (#PCDATA)><!--The password will be used to validate the user loggin, it will also be hashed to secure a bit the user -->

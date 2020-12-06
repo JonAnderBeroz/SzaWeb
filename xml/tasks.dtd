@@ -1,7 +1,7 @@
-<!ELEMENT tasks (task)*>
-<!ELEMENT task (author,text,list)>
-<!ATTLIST task fav CDATA #REQUIRED>
-<!ELEMENT author (#PCDATA)>
-<!ELEMENT text (#PCDATA)>
-<!ELEMENT list (#PCDATA)>
+<!ELEMENT tasks (task)*> <!--The file will be composed by a set of tasks-->
+<!ELEMENT task (author,text,list)> <!-- Each task will have an author a text and a list(the list could be the theme also ex Shoping)-->
+<!ATTLIST task important CDATA #REQUIRED> <!-- The task will have and atribute to set if the task is important or not-->
+<!ELEMENT author (#PCDATA)> <!--The author of the task will be the current logged user and will be set automatically-->
+<!ELEMENT text (#PCDATA)> <!--The text will be the task itself-->
+<!ELEMENT list (#PCDATA)> <!-- The list will be were the task belongs, default will be main and the creating of list may be inplemented-->
 
