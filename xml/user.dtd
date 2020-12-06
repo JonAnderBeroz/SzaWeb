@@ -1,6 +1,13 @@
 <!ELEMENT users (user)*> <!--The file will be composed by a set of users-->
-<!ELEMENT user(email,name,surname,pass)><!-- Each user will have a unique mail, the credentials of the user and the password(which will be hashed to secure a bit the user)-->
+<!ELEMENT user(email,name,surname,pass, tasks)><!-- Each user will have a unique mail, the credentials of the user and the password(which will be hashed to secure a bit the user)-->
 <!ELEMENT email (#PCDATA)><!--The email will be unique and will identify the user-->
 <!ELEMENT name (#PCDATA)> <!--The name will be the first name of the user-->
 <!ELEMENT surname (#PCDATA)><!--The surname will be the first surname of the user-->
 <!ELEMENT pass (#PCDATA)><!--The password will be used to validate the user loggin, it will also be hashed to secure a bit the user -->
+<!--This will define each task of the user-->
+<!ELEMENT tasks (task)*> <!--The file will be composed by a set of tasks-->
+<!ELEMENT task (text,list)> <!-- Each task will have an author a text and a list(the list could be the theme also ex Shoping)-->
+<!ATTLIST task important CDATA #REQUIRED> <!-- The task will have and atribute to set if the task is important or not-->
+<!ATTLIST task completed CDATA #REQUIRED> <!-- The task will have and atribute to set if the task is completed or not-->
+<!ELEMENT text (#PCDATA)> <!--The text will be the task itself-->
+<!ELEMENT list (#PCDATA)> <!-- The list will be were the task belongs, default will be main and the creating of list may be inplemented-->

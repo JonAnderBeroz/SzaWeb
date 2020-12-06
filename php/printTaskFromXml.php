@@ -1,5 +1,5 @@
 <?php
-$tasks = simplexml_load_file('../xml/tasks.xml');
+$tasks = simplexml_load_file('../xml/user.xml');
 echo "
 <table id=\"tasks\">
 <thead>
@@ -13,7 +13,7 @@ echo "
 <tbody>
 ";
 $totalTasks=0;
-foreach($tasks->xpath("//task") as $task){
+foreach($tasks->xpath("//user//tasks//task") as $task){
         echo "<tr>";
         echo "<td>" . $task->text. "</td>";
         echo "<td>

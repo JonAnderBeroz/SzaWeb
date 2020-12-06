@@ -37,6 +37,19 @@ function deleteTask(params){
 }
 
 function AjaxCallToXML(params){
-
+    switch (params) {
+        case 1:
+            var url = "../php/completeTask.php";
+            break;
+        case 2:
+            var url = "../php/updateImportantInTask.php";
+            break;
+        case 3:
+            var url = "../php/deleteTask.php";
+            break;
+    
+        default:
+            break;
+    }
 
 }
