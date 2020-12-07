@@ -10,8 +10,7 @@
     <ul>
       <li ><p id="email"><?php echo $_SESSION['email'];?></p></li>
       <li><button onclick="logout()">Log Out</button></li>
-    </ul>
-    
+    </ul> 
     <nav class="nav">
       <ul>
         <li class="active"><a href="Tasks.php">Eginkizunak</a></li>
