@@ -1,60 +1,72 @@
-<?xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
-<!DOCTYPE users SYSTEM 'user.dtd'>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE users SYSTEM "user.dtd">
 <users>
-    <user>
-        <email>prueba</email>
-        <name>prueba</name>
-        <surname>prueba</surname>
-        <pass>prueba</pass>
-        <tasks>
-            <task>
+<user>
+    <email>jberoz001@ikasle.ehu.eus</email>
+    <name>jon ander</name>
+    <surname>beroz</surname>
+    <pass>bb472edb86809a761936d90c70aeb4346618aa71da7a00c16e334863499108fd</pass>
+    <tasks>
+            <task important="no" completed="no">
+                <text>prueba1</text>
+                <list>main</list>
+            </task>
+            <task important="no" completed="no">
+                <text>prueba2</text>
+                <list>main</list>
+            </task>
+            <task important="no" completed="no">
+                <text>prueba3</text>
+                <list>main</list>
+            </task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
-            <task>
-                <text>prueba</text>
+            <task important="no" completed="no">
+                <text>prueba2</text>
                 <list>main</list>
             </task>
-            <task>
+            <task important="no" completed="no">
                 <text>prueba</text>
                 <list>main</list>
             </task>
         </tasks>
     </user>
-</users>
+<user><email>test@gmail.com</email><name>test</name><surname>test</surname><pass>9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08</pass></user></users>
