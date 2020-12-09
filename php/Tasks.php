@@ -10,13 +10,13 @@ include'../php/userValidation.php';
 <body>
 <aside class="sidebar">
     <ul>
-      <li ><p id="email"><?php echo $_SESSION['email'];?></p></li>
+      <li ><p id="email"><?php echo $_SESSION['email']; ?></p></li>
       <li><button onclick="logout()">Log Out</button></li>
     </ul> 
     <nav class="nav">
       <ul>
-        <li class="active"><a href="Tasks.php">Eginkizunak</a></li>
-        <li><a href="importantTask.php">Garrantzitsuak</a></li> 
+        <li class="active"><a href="Tasks.php" id="1">Eginkizunak </a></li>
+        <li><a href="importantTask.php" id="2">Garrantzitsuak </a></li> 
       </ul>
     </nav>
   </aside>
@@ -26,5 +26,7 @@ include'../php/userValidation.php';
   <script src="../js/taskFunctionalities.js"></script>
   <script src="../js/logout.js"></script>
   <script src="../js/addTask.js"></script>
+  <script src="../js/questionCounter.js"></script>
+  <script src="../js/importantquestionCounter.js"></script>
 </body>
 </html>

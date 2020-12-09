@@ -4,7 +4,7 @@ function logout(){
         type:"POST",
         cache: false,
         success: function (params) {
-            alert(params);
+            window.location.reload(true);
         }
     })
 }

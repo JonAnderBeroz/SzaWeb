@@ -26,7 +26,7 @@ if (isset($_POST['loginEmail'])) {
       <div class="tab-content">
         <div id="signup">   
           <h1>Doain Erregistratu</h1>     
-          <form action="test.php" method="post">
+          <form action="loginRegister.php" method="post">
           <div class="top-row">
             <div class="field-wrap">
               <label>
@@ -58,7 +58,7 @@ if (isset($_POST['loginEmail'])) {
         </div>
         <div id="login">   
           <h1>Ongi Etorria!</h1>
-          <form action="test.php" method="post">   
+          <form action="loginRegister.php" method="post">   
             <div class="field-wrap">
             <label>
               Email Helbidea<span class="req">*</span>

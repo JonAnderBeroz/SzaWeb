@@ -1,5 +1,5 @@
 <?php
     if (!isset($_SESSION['email'])) {
-        header('location:../php/test.php');
+        header('location:../php/loginRegister.php');
     }
 ?>

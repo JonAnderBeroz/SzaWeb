@@ -28,7 +28,7 @@ function addTask(params) {
             email: email
         },
         success: function (params) {
-            alert(params);
+            $('')
         }
     });
 }

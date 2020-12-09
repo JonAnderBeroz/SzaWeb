@@ -12,9 +12,9 @@
       <li><button onclick="logout()">Log Out</button></li>
     </ul>
     <nav class="nav">
-      <ul>
-        <li><a href="Tasks.php">Eginkizunak</a></li>
-        <li class="active"><a href="importantTask.php">Garrantzitsuak</a></li>
+    <ul>
+        <li ><a href="Tasks.php" id="1">Eginkizunak </a></li>
+        <li class="active"><a href="importantTask.php" id="2">Garrantzitsuak </a></li> 
       </ul>
     </nav>
   </aside>
@@ -22,5 +22,8 @@
     <?php include'../php/printImportantTaskFromXml.php'?>
   </section>
   <script src="../js/taskFunctionalities.js"></script>
+  <script src="../js/logout.js"></script>
+  <script src="../js/questionCounter.js"></script>
+  <script src="../js/importantquestionCounter.js"></script>
 </body>
 </html>
