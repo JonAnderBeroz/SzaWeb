@@ -1,7 +1,7 @@
 function logout(){
     $.ajax({
-        url:"sessionDestroyer.php",
-        type:"GET",
+        url:"../php/sessionDestroyer.php",
+        type:"POST",
         cache: false,
         success: function (params) {
             alert(params);

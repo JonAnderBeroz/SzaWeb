@@ -1,6 +1,8 @@
 <?php
   include'../php/sessionStarter.php';
-  include'../php/userValidation.php';
+?>
+<?php
+include'../php/userValidation.php';
 ?>
 <!DOCTYPE html>
 <html lang="eu">

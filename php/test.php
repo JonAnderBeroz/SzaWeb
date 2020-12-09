@@ -18,21 +18,15 @@ if (isset($_POST['loginEmail'])) {
     <title>Document</title>
 </head>
 <body>
-
-
-<div class="form">
-      
+<div class="form">    
       <ul class="tab-group">
         <li class="tab active"><a href="#signup">Sign Up</a></li>
         <li class="tab"><a href="#login">Log In</a></li>
       </ul>
-      
       <div class="tab-content">
         <div id="signup">   
-          <h1>Doain Erregistratu</h1>
-          
+          <h1>Doain Erregistratu</h1>     
           <form action="test.php" method="post">
-          
           <div class="top-row">
             <div class="field-wrap">
               <label>
@@ -40,7 +34,6 @@ if (isset($_POST['loginEmail'])) {
               </label>
               <input type="text"  name="firstName" required  autocomplete="off" />
             </div>
-        
             <div class="field-wrap">
               <label>
                 Abizena<span class="req">*</span>
@@ -48,54 +41,40 @@ if (isset($_POST['loginEmail'])) {
               <input type="text" name="lastName" required  autocomplete="off"/>
             </div>
           </div>
-
           <div class="field-wrap">
             <label>
               Email Helbidea<span class="req">*</span>
             </label>
             <input type="email" name="emailAddress" required autocomplete="off"/>
-          </div>
-          
+          </div> 
           <div class="field-wrap">
             <label>
               Pasahitza ezarri<span class="req">*</span>
             </label>
             <input type="password" name="password" required  autocomplete="off"/>
-          </div>
-          
-          <button type="submit" class="button button-block"/>Erregistratu</button>
-          
+          </div>  
+          <button type="submit" class="button button-block"/>Erregistratu</button>  
           </form>
-
         </div>
-        
         <div id="login">   
           <h1>Ongi Etorria!</h1>
-          
-          <form action="test.php" method="post">
-          
+          <form action="test.php" method="post">   
             <div class="field-wrap">
             <label>
               Email Helbidea<span class="req">*</span>
             </label>
             <input type="email" name="loginEmail" required  autocomplete="off"/>
-          </div>
-          
+          </div>       
           <div class="field-wrap">
             <label>
               Pasahitza<span class="req">*</span>
             </label>
             <input type="password" name="loginPassword" required autocomplete="off"/>
-          </div>
-          
+          </div>      
           <button class="button button-block"/>Kautotu</button>
-          
           </form>
-
         </div>
-        
       </div><!-- tab-content -->
-      
 </div> <!-- /form -->
 <script src="../js/loginRegister.js"></script>
 </body>
