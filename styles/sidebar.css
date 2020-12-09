@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-/* line 3, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 html {
   font-family: Arial;
   font-size: 16px;
@@ -8,7 +8,7 @@ html {
   margin: 0%;
 }
 
-/* line 9, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .sidebar {
   position: fixed;
   width: 25%;
@@ -17,7 +17,7 @@ html {
   font-size: 0.65em;
 }
 
-/* line 17, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .nav {
   position: relative;
   margin: 0 15%;
@@ -27,18 +27,18 @@ html {
   font-weight: bold;
 }
 
-/* line 26, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .nav ul {
   list-style: none;
 }
 
-/* line 29, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .nav ul li {
   position: relative;
   margin: 2.2em 0;
 }
 
-/* line 33, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .nav ul li a {
   line-height: 5em;
   text-transform: uppercase;
@@ -79,22 +79,21 @@ html {
       outline:none;
 }
 
-/* line 43, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .nav ul li.active a {
   color: white;
 }
 
-/* line 47, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
 .nav ul li:not(.active)::after {
   opacity: 0.2;
 }
 
-/* line 51, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .nav ul li:not(.active):hover a {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 55, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
+
 .nav ul li::after {
   content: '';
   position: absolute;
@@ -106,13 +105,9 @@ html {
   background-image: linear-gradient(to right, #5e42a6, #b74e91);
 }
 
-/* line 68, ../../../Apps/Xampp/htdocs/SzaWeb/scssFiles/sidebar.scss */
 .container {
   position: relative;
   width: 75%;
   float: right;
   height: 100vh;
 }
-
-
-/*# sourceMappingURL=sidebar.css.map */
